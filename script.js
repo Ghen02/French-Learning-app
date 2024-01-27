@@ -1,12 +1,6 @@
-// script.js
-
-// Track link clicks
-document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('a[target="_blank"]');
-    
-    links.forEach(link => {
-        link.addEventListener('click', function () {
-            // Perform any additional actions here if needed
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('a[target="_blank"]').forEach(link => {
+        link.addEventListener('click', () => {
             console.log(`Link clicked: ${link.href}`);
         });
     });
