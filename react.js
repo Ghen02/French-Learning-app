@@ -1,23 +1,27 @@
 const YourReactComponent = () => {
     return (
         <div>
-            <h1>French Learning Language App</h1>
-            <section className="language-level">
-                <h1>DELF A2</h1>
-                <h2>What is A2 Level French? - Everything You Need to Know</h2>
-                <p>The A2 level French is an elementary stage in the Common European Framework of Reference for Languages (CEFR), which is widely recognized and used to assess language proficiency.</p>
-                <p>Achieving an A2 French marks a significant milestone in language learning. Clearing the A2 level French exam implies that learners have made significant progress in their language journey and can handle simple everyday situations.</p>
-                <p>Achieving French level A2 has several benefits. It enables learners to engage in basic conversations with native speakers, navigate common situations during travel, as well as gain a deeper understanding of French culture.</p>
-                <a href="https://www.france-education-international.fr/diplome/delf-tout-public/niveau-a2" target="_blank" className="learn-more-link">Learn More about A2 Level French</a>
-            </section>
+            <h1>LET'S SPEAK FRENCH</h1>
 
-            <section className="language-level">
-                <h1>DELF B1</h1>
-                <h2>What is B1 Level French? - Complete Information</h2>
-                <p><b>B1 level French</b> is the third level in the Common European Framework of References (CEFR). Level B1, also known as <b>‘Threshold’</b> or <b>‘Breakthrough’</b> stage. When you pass the <b>B1 French exam</b>, you move into an intermediate level of French, which makes you an <b>“independent speaker”</b>.</p>
-                <p>It is the stage through which a French speaker moves away from the most simplistic language to cope with complex situations encountered when traveling in <b><u>French-speaking countries.</u></b> </p>
-                <a href="https://www.france-education-international.fr/diplome/delf-tout-public/niveau-b1" target="_blank" className="learn-more-link">Learn More about B1 Level French</a>
-            </section>
+            <section class="language-level">
+        <h2>A1</h2>
+        <p>	Can understand and use colloquial, everyday expressions and very simple statements that are intended to meet concrete needs. May introduce themselves or someone else and ask a person questions about themselves – for example, where they live, their relationships, what belongs to them, etc. – and can answer the same type of questions. Can communicate in a simple way if the other person speaks slowly and clearly and is cooperative</p>
+        </section>
+
+    <section class="language-level">
+        <h2>A2</h2>
+        <p>	May include isolated sentences and frequently used phrases in relation to immediate areas of priority (e.g., simple personal and family information, shopping, close environment, work). Can communicate during simple and routine tasks requiring only a simple and direct exchange of information on familiar and usual subjects. Can describe his/her training, immediate environment and discuss topics that correspond to immediate needs.</p>
+    </section>
+
+    <section class="language-level">
+        <h2>B1</h2>
+        <p>	Can understand the essential points when clear, standard language is used and if they are familiar things at work, school, leisure, etc. Can cope with most situations encountered while traveling to an area where the target language is spoken. Can produce a simple and coherent speech on familiar topics and in areas of interest. Can recount an event, experience, or dream, describe a hope or goal, and briefly explain reasons or explanations for a project or idea.</p>
+    </section>
+
+    <section class="language-level">
+        <h2>B2</h2>
+        <p>	Can understand the essential content of concrete or abstract topics in a complex text, including a technical discussion in his/her specialty. Can communicate with a degree of spontaneity and fluency such that a conversation with a native speaker involves no tension for either of them. Can express themselves clearly and in detail on a wide range of topics, express an opinion on a current topic and explain the advantages and disadvantages of different options.</p>
+    </section>
         </div>
     );
 };

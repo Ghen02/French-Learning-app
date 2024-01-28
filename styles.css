@@ -4,6 +4,25 @@ body {
     background-color: #f4f4f4;
 }
 
+.header-container {
+    position: relative;
+    max-height: 300px; /* Adjust the height according to your needs */
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 20px; /* Adjust the distance from the left */
+    color: #fff;
+}
+
 .language-level {
     background-color: #fff;
     padding: 20px;
